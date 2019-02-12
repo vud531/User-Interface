@@ -64,3 +64,94 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+
+body {
+	text-align: center;
+}
+nav {
+	padding-top: 10px;
+	text-align: center;
+	position: fixed;
+	background: white;
+	height: 70px;
+}
+
+nav a, nav img {
+	padding: 10px 40px;
+	color: gray;
+	text-decoration: none;
+	vertical-align: middle;
+
+}
+
+header {
+	padding-top: 100px;
+	text-align: center;
+}
+
+header #title, header img {
+	display: inline-block;
+	margin: 30px;
+	width: 30%;
+}
+
+#title h1 {
+	font-size: 80px;
+	width: 70%;
+	margin: 0px auto;
+}
+
+#get-started {
+	background: white;
+	border: solid black 1px;
+	padding: 5px 20px;
+	font: inherit;
+}
+
+#left-content, #right-content, #middle-content {
+	display: inline-block;
+}
+
+#top-content {
+	border-top: solid black 1px;
+}
+#bottom-content {
+	border-bottom: solid black 1px;
+}
+
+#top-content, #bottom-content {
+	width: 90%;
+	margin: auto;
+	padding: 40px 0px;
+	text-align: center;
+}
+
+#top-content #left-content, #top-content #right-content {
+	width: 45%;
+	text-align: left;
+	padding: 0px;
+}
+
+
+
+.middle-img {
+	width: 90%;
+	margin: auto;
+}
+
+#bottom-content #left-content, #bottom-content #middle-content, #bottom-content #right-content {
+	width: 30%;
+	text-align: left;
+	padding: 0px;
+}
+
+#contact {
+	margin-left: 50px;
+	padding-top: 30px;
+	width: 30%;
+	text-align: left;
+}
+
+footer {
+	padding-top: 25px;
+}
