@@ -74,6 +74,7 @@ nav {
 	position: fixed;
 	background: white;
 	height: 70px;
+	width: 100%;
 }
 
 nav a, nav img {
@@ -97,7 +98,7 @@ header #title, header img {
 
 #title h1 {
 	font-size: 80px;
-	width: 70%;
+	width: 65%;
 	margin: 0px auto;
 }
 
@@ -148,7 +149,7 @@ header #title, header img {
 #contact {
 	margin-left: 50px;
 	padding-top: 30px;
-	width: 30%;
+	width: 15%;
 	text-align: left;
 }
 
